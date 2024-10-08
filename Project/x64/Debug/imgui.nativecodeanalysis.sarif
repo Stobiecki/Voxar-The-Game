@@ -1,0 +1,3275 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C28182",
+          "message": {
+            "text": "Wyłuskanie wskaźnika NULL. Element „window->RootWindowForNav” zawiera tę samą wartość NULL, która była zapisana w elemencie „parent_window”. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                },
+                "region": {
+                  "startLine": 6403,
+                  "startColumn": 12,
+                  "endLine": 6403,
+                  "endColumn": 46
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ImGui::UpdateWindowParentAndRootLinks",
+                  "decoratedName": "?UpdateWindowParentAndRootLinks@ImGui@@YAXPEAUImGuiWindow@@H0@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 6391,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 6392,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 6393,
+                            "startColumn": 65
+                          }
+                        },
+                        "message": {
+                          "text": "Element „parent_window” może mieć wartość NULL (Pomiń to rozgałęzienie)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 6399,
+                            "startColumn": 23
+                          }
+                        },
+                        "message": {
+                          "text": "Pomiń to rozgałęzienie (przyjmowane jest, że element „<warunek rozgałęzienia>” ma wartość false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 6401,
+                            "startColumn": 60
+                          }
+                        },
+                        "message": {
+                          "text": "Pomiń to rozgałęzienie (przyjmowane jest, że element „<warunek rozgałęzienia>” ma wartość false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 6403,
+                            "startColumn": 44
+                          }
+                        },
+                        "message": {
+                          "text": "Pomiń tę pętlę (przyjmowane jest, że element „<warunek rozgałęzienia>” ma wartość false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 6406,
+                            "startColumn": 34
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 6403,
+                            "startColumn": 44
+                          }
+                        },
+                        "message": {
+                          "text": "Wejdź do tej pętli (przyjmowane jest: „<warunek rozgałęzienia>”)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 6403,
+                            "startColumn": 44
+                          }
+                        },
+                        "message": {
+                          "text": "Element „parent_window” jest wyłuskiwany, ale nadal może mieć wartość NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "Wyłuskanie wskaźnika NULL „viewport”. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                },
+                "region": {
+                  "startLine": 13186,
+                  "startColumn": 5,
+                  "endLine": 13186,
+                  "endColumn": 50
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ImGui::DestroyViewport",
+                  "decoratedName": "?DestroyViewport@ImGui@@YAXPEAUImGuiViewportP@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13169,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13170,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13170,
+                            "startColumn": 37
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13172,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13173,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13175,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13176,
+                            "startColumn": 31
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13170,
+                            "startColumn": 63
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13170,
+                            "startColumn": 37
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13172,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13173,
+                            "startColumn": 30
+                          }
+                        },
+                        "message": {
+                          "text": "Element „viewport” może mieć wartość NULL (Pomiń to rozgałęzienie)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13175,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13176,
+                            "startColumn": 31
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13170,
+                            "startColumn": 63
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13170,
+                            "startColumn": 37
+                          }
+                        },
+                        "message": {
+                          "text": "Wyjdź z tej pętli (przyjmowane jest, że element „window_n<g.Windows.Size” ma wartość false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13178,
+                            "startColumn": 18
+                          }
+                        },
+                        "message": {
+                          "text": "Pomiń to rozgałęzienie (przyjmowane jest, że element „<warunek rozgałęzienia>” ma wartość false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13182,
+                            "startColumn": 5
+                          }
+                        },
+                        "message": {
+                          "text": "Pomiń to rozgałęzienie (przyjmowane jest, że element „<warunek rozgałęzienia>” ma wartość false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13183,
+                            "startColumn": 26
+                          }
+                        },
+                        "message": {
+                          "text": "Element „viewport” jest argumentem We/Wy dla elementu „ImGui::DestroyPlatformWindow” (deklaracja pod adresem f:\\foldery\\studia ug - magisterskie\\semestr iii\\programowanie grafiki 3d w opengl (c++, glsl)\\laboratoria\\lab10\\szablon\\include\\imgui\\imgui_internal.h:2817)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13186,
+                            "startColumn": 22
+                          }
+                        },
+                        "message": {
+                          "text": "Element „viewport” jest wyłuskiwany, ale nadal może mieć wartość NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "Wyłuskanie wskaźnika NULL „window->Viewport”. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                },
+                "region": {
+                  "startLine": 13313,
+                  "startColumn": 13,
+                  "endLine": 13313,
+                  "endColumn": 74
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ImGui::WindowSelectViewport",
+                  "decoratedName": "?WindowSelectViewport@ImGui@@YAXPEAUImGuiWindow@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13193,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13194,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13195,
+                            "startColumn": 48
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13198,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13199,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13204,
+                            "startColumn": 27
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13207,
+                            "startColumn": 71
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13213,
+                            "startColumn": 73
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13228,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13229,
+                            "startColumn": 32
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13236,
+                            "startColumn": 53
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13243,
+                            "startColumn": 31
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13248,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13252,
+                            "startColumn": 44
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13256,
+                            "startColumn": 77
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13266,
+                            "startColumn": 14
+                          }
+                        },
+                        "message": {
+                          "text": "Element „window->Viewport” może mieć wartość NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13267,
+                            "startColumn": 13
+                          }
+                        },
+                        "message": {
+                          "text": "Pomiń to rozgałęzienie (przyjmowane jest, że element „<warunek rozgałęzienia>” ma wartość false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13272,
+                            "startColumn": 26
+                          }
+                        },
+                        "message": {
+                          "text": "Wejdź do tego rozgałęzienia (przyjmowane jest: „window->Viewport==0”)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13273,
+                            "startColumn": 13
+                          }
+                        },
+                        "message": {
+                          "text": "Pomiń to rozgałęzienie (przyjmowane jest, że element „<warunek rozgałęzienia>” ma wartość false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13277,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "Wejdź do tego rozgałęzienia (przyjmowane jest: „!lock_viewport”)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13279,
+                            "startColumn": 19
+                          }
+                        },
+                        "message": {
+                          "text": "Pomiń to rozgałęzienie (przyjmowane jest, że element „flags” ma wartość false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13291,
+                            "startColumn": 144
+                          }
+                        },
+                        "message": {
+                          "text": "Pomiń to rozgałęzienie (przyjmowane jest, że element „<warunek rozgałęzienia>” ma wartość false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13309,
+                            "startColumn": 65
+                          }
+                        },
+                        "message": {
+                          "text": "Wejdź do tego rozgałęzienia (przyjmowane jest: „<warunek rozgałęzienia>”)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13313,
+                            "startColumn": 56
+                          }
+                        },
+                        "message": {
+                          "text": "Element „window->Viewport” jest wyłuskiwany, ale nadal może mieć wartość NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "Wyłuskanie wskaźnika NULL „window”. W wierszu 13194 znajduje się wcześniejsza lokalizacja, w której może to wystąpić"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                },
+                "region": {
+                  "startLine": 13318,
+                  "startColumn": 5,
+                  "endLine": 13318,
+                  "endColumn": 56
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ImGui::WindowSelectViewport",
+                  "decoratedName": "?WindowSelectViewport@ImGui@@YAXPEAUImGuiWindow@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13193,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13194,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13195,
+                            "startColumn": 48
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13198,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13199,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "Pomiń to rozgałęzienie (przyjmowane jest, że element „<warunek rozgałęzienia>” ma wartość false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13204,
+                            "startColumn": 27
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13207,
+                            "startColumn": 71
+                          }
+                        },
+                        "message": {
+                          "text": "Pomiń to rozgałęzienie (przyjmowane jest, że element „<warunek rozgałęzienia>” ma wartość false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13213,
+                            "startColumn": 73
+                          }
+                        },
+                        "message": {
+                          "text": "Pomiń to rozgałęzienie (przyjmowane jest, że element „<warunek rozgałęzienia>” ma wartość false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13228,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13229,
+                            "startColumn": 32
+                          }
+                        },
+                        "message": {
+                          "text": "Pomiń to rozgałęzienie (przyjmowane jest, że element „<warunek rozgałęzienia>” ma wartość false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13236,
+                            "startColumn": 53
+                          }
+                        },
+                        "message": {
+                          "text": "Pomiń to rozgałęzienie (przyjmowane jest, że element „<warunek rozgałęzienia>” ma wartość false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13243,
+                            "startColumn": 31
+                          }
+                        },
+                        "message": {
+                          "text": "Pomiń to rozgałęzienie (przyjmowane jest, że element „<warunek rozgałęzienia>” ma wartość false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13248,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "Pomiń to rozgałęzienie (przyjmowane jest, że element „flags” ma wartość false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13252,
+                            "startColumn": 44
+                          }
+                        },
+                        "message": {
+                          "text": "Element „window” jest argumentem We/Wy dla elementu „ImGui::GetWindowAlwaysWantOwnViewport” (deklaracja w wierszu 1023)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13252,
+                            "startColumn": 44
+                          }
+                        },
+                        "message": {
+                          "text": "Pomiń to rozgałęzienie (przyjmowane jest, że element „<warunek rozgałęzienia>” ma wartość false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13256,
+                            "startColumn": 77
+                          }
+                        },
+                        "message": {
+                          "text": "Pomiń to rozgałęzienie (przyjmowane jest, że element „<warunek rozgałęzienia>” ma wartość false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13266,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13267,
+                            "startColumn": 13
+                          }
+                        },
+                        "message": {
+                          "text": "Pomiń to rozgałęzienie (przyjmowane jest, że element „<warunek rozgałęzienia>” ma wartość false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13272,
+                            "startColumn": 26
+                          }
+                        },
+                        "message": {
+                          "text": "Wejdź do tego rozgałęzienia (przyjmowane jest: „window->Viewport==0”)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13273,
+                            "startColumn": 13
+                          }
+                        },
+                        "message": {
+                          "text": "Element „window” jest argumentem We/Wy dla elementu „ImGui::UpdateTryMergeWindowIntoHostViewport” (deklaracja w wierszu 1021)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13273,
+                            "startColumn": 13
+                          }
+                        },
+                        "message": {
+                          "text": "Wejdź do tego rozgałęzienia (przyjmowane jest: „<warunek rozgałęzienia>”)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13274,
+                            "startColumn": 30
+                          }
+                        },
+                        "message": {
+                          "text": "Element „window” jest argumentem We/Wy dla elementu „ImGui::AddUpdateViewport” (deklaracja w wierszu 1015)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13277,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "Wejdź do tego rozgałęzienia (przyjmowane jest: „!lock_viewport”)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13279,
+                            "startColumn": 19
+                          }
+                        },
+                        "message": {
+                          "text": "Pomiń to rozgałęzienie (przyjmowane jest, że element „flags” ma wartość false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13291,
+                            "startColumn": 144
+                          }
+                        },
+                        "message": {
+                          "text": "Pomiń to rozgałęzienie (przyjmowane jest, że element „<warunek rozgałęzienia>” ma wartość false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13309,
+                            "startColumn": 65
+                          }
+                        },
+                        "message": {
+                          "text": "Wejdź do tego rozgałęzienia (przyjmowane jest: „<warunek rozgałęzienia>”)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13313,
+                            "startColumn": 56
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13318,
+                            "startColumn": 27
+                          }
+                        },
+                        "message": {
+                          "text": "Element „window” jest wyłuskiwany, ale nadal może mieć wartość NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "Wyłuskanie wskaźnika NULL „node”. W wierszu 14323 znajduje się wcześniejsza lokalizacja, w której może to wystąpić"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                },
+                "region": {
+                  "startLine": 14412,
+                  "startColumn": 9,
+                  "endLine": 14412,
+                  "endColumn": 40
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ImGui::DockContextProcessDock",
+                  "decoratedName": "?DockContextProcessDock@ImGui@@YAXPEAUImGuiContext@@PEAUImGuiDockRequest@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 14288,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 14289,
+                            "startColumn": 5
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 14291,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 14292,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 14293,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 14294,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 14297,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 14300,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 14301,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 14302,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 14314,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 14316,
+                            "startColumn": 31
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 14320,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 14322,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 14323,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 14324,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 14325,
+                            "startColumn": 43
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 14333,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 14334,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 14345,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 14347,
+                            "startColumn": 14
+                          }
+                        },
+                        "message": {
+                          "text": "Element „node” może mieć wartość NULL (Pomiń to rozgałęzienie)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 14412,
+                            "startColumn": 38
+                          }
+                        },
+                        "message": {
+                          "text": "Element „node” jest wyłuskiwany, ale nadal może mieć wartość NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "Wyłuskanie wskaźnika NULL „node->TabBar”. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                },
+                "region": {
+                  "startLine": 14640,
+                  "startColumn": 13,
+                  "endLine": 14640,
+                  "endColumn": 81
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ImGui::DockNodeAddWindow",
+                  "decoratedName": "?DockNodeAddWindow@ImGui@@YAXPEAUImGuiDockNode@@PEAUImGuiWindow@@_N@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 14599,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 14599,
+                            "startColumn": 38
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 14600,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 14607,
+                            "startColumn": 5
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 14612,
+                            "startColumn": 61
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 14615,
+                            "startColumn": 28
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 14616,
+                            "startColumn": 34
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 14617,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 14618,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 14619,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 14620,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 14624,
+                            "startColumn": 34
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 14635,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 14637,
+                            "startColumn": 26
+                          }
+                        },
+                        "message": {
+                          "text": "Element „node->TabBar” może mieć wartość NULL (Wejdź do tego rozgałęzienia)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 14639,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 14640,
+                            "startColumn": 41
+                          }
+                        },
+                        "message": {
+                          "text": "Element „node->TabBar” jest wyłuskiwany, ale nadal może mieć wartość NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C28182",
+          "message": {
+            "text": "Wyłuskanie wskaźnika NULL. Element „node” zawiera tę samą wartość NULL, która była zapisana w elemencie „info->CentralNode”. W wierszu 14810 znajduje się wcześniejsza lokalizacja, w której może to wystąpić"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                },
+                "region": {
+                  "startLine": 14824,
+                  "startColumn": 9,
+                  "endLine": 14824,
+                  "endColumn": 27
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DockNodeFindInfo",
+                  "decoratedName": "?DockNodeFindInfo@@YAXPEAUImGuiDockNode@@PEAUImGuiDockNodeTreeInfo@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 14810,
+                            "startColumn": 28
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 14816,
+                            "startColumn": 28
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 14820,
+                            "startColumn": 27
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 14822,
+                            "startColumn": 41
+                          }
+                        },
+                        "message": {
+                          "text": "Element „node” może mieć wartość NULL (Pomiń to rozgałęzienie)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 14824,
+                            "startColumn": 27
+                          }
+                        },
+                        "message": {
+                          "text": "Pomiń to rozgałęzienie (przyjmowane jest, że element „node->ChildNodes[0]” ma wartość false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 14824,
+                            "startColumn": 27
+                          }
+                        },
+                        "message": {
+                          "text": "Element „node” jest wyłuskiwany, ale nadal może mieć wartość NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "Wyłuskanie wskaźnika NULL „node”. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                },
+                "region": {
+                  "startLine": 17118,
+                  "startColumn": 9,
+                  "endLine": 17118,
+                  "endColumn": 33
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ImGui::BeginDocked",
+                  "decoratedName": "?BeginDocked@ImGui@@YAXPEAUImGuiWindow@@PEA_N@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 17068,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 17069,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 17072,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 17074,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 17075,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 17086,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 17087,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 17088,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 17089,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 17097,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 17098,
+                            "startColumn": 14
+                          }
+                        },
+                        "message": {
+                          "text": "Element „node” może mieć wartość NULL (Pomiń to rozgałęzienie)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 17100,
+                            "startColumn": 29
+                          }
+                        },
+                        "message": {
+                          "text": "Pomiń to rozgałęzienie (przyjmowane jest, że element „window->DockId!=0&&node==0” ma wartość false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 17118,
+                            "startColumn": 30
+                          }
+                        },
+                        "message": {
+                          "text": "Element „node” jest wyłuskiwany, ale nadal może mieć wartość NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C28182",
+          "message": {
+            "text": "Wyłuskanie wskaźnika NULL. Element „window->DockNode” zawiera tę samą wartość NULL, która była zapisana w elemencie „node”. W wierszu 17118 znajduje się wcześniejsza lokalizacja, w której może to wystąpić"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                },
+                "region": {
+                  "startLine": 17189,
+                  "startColumn": 18,
+                  "endLine": 17189,
+                  "endColumn": 50
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ImGui::BeginDocked",
+                  "decoratedName": "?BeginDocked@ImGui@@YAXPEAUImGuiWindow@@PEA_N@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 17068,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 17069,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 17072,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 17074,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 17075,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 17086,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 17087,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 17088,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 17089,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 17097,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 17098,
+                            "startColumn": 14
+                          }
+                        },
+                        "message": {
+                          "text": "Element „node” może mieć wartość NULL (Pomiń to rozgałęzienie)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 17100,
+                            "startColumn": 29
+                          }
+                        },
+                        "message": {
+                          "text": "Pomiń to rozgałęzienie (przyjmowane jest, że element „window->DockId!=0&&node==0” ma wartość false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 17118,
+                            "startColumn": 30
+                          }
+                        },
+                        "message": {
+                          "text": "Pomiń to rozgałęzienie (przyjmowane jest, że element „<warunek rozgałęzienia>” ma wartość false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 17130,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 17130,
+                            "startColumn": 35
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 17131,
+                            "startColumn": 43
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 17130,
+                            "startColumn": 75
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 17130,
+                            "startColumn": 35
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 17131,
+                            "startColumn": 43
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 17130,
+                            "startColumn": 75
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 17130,
+                            "startColumn": 35
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 17136,
+                            "startColumn": 26
+                          }
+                        },
+                        "message": {
+                          "text": "Pomiń to rozgałęzienie (przyjmowane jest, że element „node->HostWindow==0” ma wartość false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 17149,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 17152,
+                            "startColumn": 65
+                          }
+                        },
+                        "message": {
+                          "text": "Pomiń to rozgałęzienie (przyjmowane jest, że element „<warunek rozgałęzienia>” ma wartość false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 17159,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 17160,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 17161,
+                            "startColumn": 32
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 17162,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 17163,
+                            "startColumn": 31
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 17164,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 17165,
+                            "startColumn": 27
+                          }
+                        },
+                        "message": {
+                          "text": "Pomiń to rozgałęzienie (przyjmowane jest, że element „node->MergedFlags” ma wartość false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 17169,
+                            "startColumn": 29
+                          }
+                        },
+                        "message": {
+                          "text": "Pomiń to rozgałęzienie (przyjmowane jest, że element „node->VisibleWindow==window” ma wartość false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 17174,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 17175,
+                            "startColumn": 32
+                          }
+                        },
+                        "message": {
+                          "text": "Pomiń to rozgałęzienie (przyjmowane jest, że element „<warunek rozgałęzienia>” ma wartość false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 17178,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 17182,
+                            "startColumn": 22
+                          }
+                        },
+                        "message": {
+                          "text": "Pomiń to rozgałęzienie (przyjmowane jest, że element „<warunek rozgałęzienia>” ma wartość false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 17185,
+                            "startColumn": 71
+                          }
+                        },
+                        "message": {
+                          "text": "Pomiń to rozgałęzienie (przyjmowane jest, że element „<warunek rozgałęzienia>” ma wartość false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 17189,
+                            "startColumn": 18
+                          }
+                        },
+                        "message": {
+                          "text": "Element „node” jest wyłuskiwany, ale nadal może mieć wartość NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6387",
+          "message": {
+            "text": "Element „_Param_(2)” może być elementem „0”: jest to niespójne ze specyfikacją funkcji „ImmAssociateContextEx”. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                },
+                "region": {
+                  "startLine": 17670,
+                  "startColumn": 7,
+                  "endLine": 17670,
+                  "endColumn": 76
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "SetPlatformImeDataFn_DefaultImpl",
+                  "decoratedName": "?SetPlatformImeDataFn_DefaultImpl@@YAXPEAUImGuiViewport@@PEAUImGuiPlatformImeData@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 17662,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 17664,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 17667,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 17670,
+                            "startColumn": 28
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.38.33134.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///F:/Foldery/Studia UG - Magisterskie/Semestr III/Programowanie grafiki 3D w OpenGL (C++, GLSL)/laboratoria/lab10/szablon/include/ImGui/imgui.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "a80b424f33eaf13a7964849ed0c0802eeabaf8988ed43df1f893b4d93d3b6857"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/foldery/studia ug - magisterskie/semestr iii/programowanie grafiki 3d w opengl (c++, glsl)/laboratoria/lab10/szablon/include/imgui/imgui.h"
+          },
+          "hashes": {
+            "sha-256": "27a87e15fc931c5d6d66fd43bfa673aeace1f572f2bd994d454da00508e81c04"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/foldery/studia ug - magisterskie/semestr iii/programowanie grafiki 3d w opengl (c++, glsl)/laboratoria/lab10/szablon/include/imgui/imconfig.h"
+          },
+          "hashes": {
+            "sha-256": "f4353b5003def5cb675d9a6f4bb4dc65260456d7b0811beedfa1e7e4b23d84ec"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/foldery/studia ug - magisterskie/semestr iii/programowanie grafiki 3d w opengl (c++, glsl)/laboratoria/lab10/szablon/include/imgui/imgui_internal.h"
+          },
+          "hashes": {
+            "sha-256": "23176d4c506078f8cef395351e7a6dc225408bb97701e30f6ba8f0c244242792"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/foldery/studia ug - magisterskie/semestr iii/programowanie grafiki 3d w opengl (c++, glsl)/laboratoria/lab10/szablon/include/imgui/imstb_textedit.h"
+          },
+          "hashes": {
+            "sha-256": "952dafd13b3bdfceb7179da7f7d11db14419e7ae3613982741428b7a036b5d27"
+          }
+        }
+      ]
+    }
+  ]
+}

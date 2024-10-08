@@ -1,0 +1,38 @@
+Here is introduction to loaded models!
+
+It should end with 'at' symbol.
+
+What type of models can be loaded:
+
+SM - Standard Model					DONE
+TM - Transparent Model					TO_DO
+RM - Reflective Model					TO_DO
+TRM - Transparent and Reflective Model			TO_DO
+2D - 2D Model						DONE
+2DC - 2D with Crossed textures				DONE
+3DA - 3D with simple Animations				TO_DO
+
+order:
+
+<model_type>;<model_name>;<model_path>;<texture>;<program_name>;<vertex_shader>;<fragment_shader>;
+
+@
+SM;cave_map;src/models/cave_map.obj;src/textures/palette.png;prog1;shaders/vertex.glsl;shaders/fragment.glsl;
+SM;tree;src/models/tree.obj;src/textures/palette.png;prog2;shaders/vertex.glsl;shaders/fragment.glsl;
+SM;street_lamp;src/models/street_lamp.obj;src/textures/palette.png;prog3;shaders/vertex.glsl;shaders/fragment.glsl;
+SM;catwalk;src/models/catwalk.obj;src/textures/wood_pixelated.png;prog4;shaders/vertex.glsl;shaders/fragment.glsl;
+SM;rope;src/models/rope.obj;src/textures/rope_pixelated.png;prog5;shaders/vertex.glsl;shaders/fragment.glsl;
+SM;oak_log;src/models/oak_log.obj;src/textures/oak_bark_pixelated.png;prog6;shaders/vertex.glsl;shaders/fragment.glsl;
+SM;street_lamp_bulb;src/models/street_lamp_bulb.obj;src/textures/palette.png;prog7;shaders/vertexLightTransparent.glsl;shaders/fragmentLightTransparent.glsl;
+SM;monkey;src/models/monkey.obj;src/textures/palette.png;prog8;shaders/vertex.glsl;shaders/fragment.glsl;
+SM;sun_moon;src/models/sun_moon.obj;src/textures/palette.png;prog9;shaders/vertex.glsl;shaders/fragment.glsl;
+2DC;2D_plane;src/models/2D_plane.obj;src/textures/palette.png;prog10;shaders/2Dvertex.glsl;shaders/2Dfragment.glsl;
+SM;floor_plane;src/models/floor_plane.obj;src/textures/palette.png;prog11;shaders/vertex.glsl;shaders/fragment.glsl;
+SM;catwalk2;src/models/catwalk2.obj;src/textures/wood_pixelated.png;prog12;shaders/vertex.glsl;shaders/fragment.glsl;
+SM;huge_root;src/models/huge_root.obj;src/textures/palette.png;prog13;shaders/vertex.glsl;shaders/fragment.glsl;
+SM;apple;src/models/apple.obj;src/textures/palette.png;prog14;shaders/vertex.glsl;shaders/fragment.glsl;
+SM;gem1;src/models/gem1.obj;src/textures/palette.png;prog15;shaders/vertex.glsl;shaders/fragment.glsl;
+SM;gem2;src/models/gem2.obj;src/textures/palette.png;prog16;shaders/vertex.glsl;shaders/fragment.glsl;
+SM;gem3;src/models/gem3.obj;src/textures/palette.png;prog17;shaders/vertex.glsl;shaders/fragment.glsl;
+SM;torches;src/models/torches.obj;src/textures/palette.png;prog18;shaders/vertex.glsl;shaders/fragment.glsl;
+SM;plant;src/models/plant.obj;src/textures/plant.png;prog19;shaders/vertex.glsl;shaders/fragment.glsl;

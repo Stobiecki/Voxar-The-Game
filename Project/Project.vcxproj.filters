@@ -1,0 +1,413 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Pliki źródłowe">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Pliki zasobów">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\GL">
+      <UniqueIdentifier>{49408b6d-24ce-4090-8028-494665a46c4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\ObjectLoader">
+      <UniqueIdentifier>{8dfe51c6-f87e-4f29-a811-ce4821b29a1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\MyHeaders">
+      <UniqueIdentifier>{814e2d7a-0e0f-4f43-9bfe-fadda1f09f49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\ImGui">
+      <UniqueIdentifier>{c39edecb-decb-4c2c-a6e6-412d0729287f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\stb">
+      <UniqueIdentifier>{9f23848e-1e92-4bc0-8b2b-1aff201f7f36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\SFML">
+      <UniqueIdentifier>{b52fbabb-ca7c-411b-9e0a-dd1f7e16aa0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\SFML\Audio">
+      <UniqueIdentifier>{b9e2db64-2b4a-479c-8fd6-6c4cba88eede}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\SFML\System">
+      <UniqueIdentifier>{2f8f4257-6097-42b7-9144-89334f375d94}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\GL\eglew.h">
+      <Filter>Pliki nagłówkowe\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\GL\freeglut.h">
+      <Filter>Pliki nagłówkowe\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\GL\freeglut_ext.h">
+      <Filter>Pliki nagłówkowe\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\GL\freeglut_std.h">
+      <Filter>Pliki nagłówkowe\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\GL\freeglut_ucall.h">
+      <Filter>Pliki nagłówkowe\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\GL\glew.h">
+      <Filter>Pliki nagłówkowe\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\GL\glut.h">
+      <Filter>Pliki nagłówkowe\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\GL\glxew.h">
+      <Filter>Pliki nagłówkowe\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\GL\wglew.h">
+      <Filter>Pliki nagłówkowe\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ObjectLoader\obj_loader.hpp">
+      <Filter>Pliki nagłówkowe\ObjectLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ImGui\imconfig.h">
+      <Filter>Pliki nagłówkowe\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ImGui\imgui.h">
+      <Filter>Pliki nagłówkowe\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ImGui\imgui_impl_glut.h">
+      <Filter>Pliki nagłówkowe\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ImGui\imgui_impl_opengl3.h">
+      <Filter>Pliki nagłówkowe\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ImGui\imgui_impl_opengl3_loader.h">
+      <Filter>Pliki nagłówkowe\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ImGui\imgui_internal.h">
+      <Filter>Pliki nagłówkowe\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ImGui\imgui_stdlib.h">
+      <Filter>Pliki nagłówkowe\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ImGui\imstb_rectpack.h">
+      <Filter>Pliki nagłówkowe\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ImGui\imstb_textedit.h">
+      <Filter>Pliki nagłówkowe\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ImGui\imstb_truetype.h">
+      <Filter>Pliki nagłówkowe\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ImGui\imgui_impl_opengl2.h">
+      <Filter>Pliki nagłówkowe\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities.h">
+      <Filter>Pliki nagłówkowe\MyHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="utilitiesForGLUT.hpp">
+      <Filter>Pliki nagłówkowe\MyHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="AdditionalWindows.h">
+      <Filter>Pliki nagłówkowe\MyHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\stb\stb_image.h">
+      <Filter>Pliki nagłówkowe\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SFML\GpuPreference.hpp">
+      <Filter>Pliki nagłówkowe\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SFML\Graphics.hpp">
+      <Filter>Pliki nagłówkowe\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SFML\Main.hpp">
+      <Filter>Pliki nagłówkowe\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SFML\Network.hpp">
+      <Filter>Pliki nagłówkowe\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SFML\OpenGL.hpp">
+      <Filter>Pliki nagłówkowe\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SFML\System.hpp">
+      <Filter>Pliki nagłówkowe\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SFML\Window.hpp">
+      <Filter>Pliki nagłówkowe\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SFML\Audio.hpp">
+      <Filter>Pliki nagłówkowe\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SFML\Config.hpp">
+      <Filter>Pliki nagłówkowe\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SFML\Audio\InputSoundFile.hpp">
+      <Filter>Pliki nagłówkowe\SFML\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SFML\Audio\Listener.hpp">
+      <Filter>Pliki nagłówkowe\SFML\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SFML\Audio\Music.hpp">
+      <Filter>Pliki nagłówkowe\SFML\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SFML\Audio\OutputSoundFile.hpp">
+      <Filter>Pliki nagłówkowe\SFML\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SFML\Audio\Sound.hpp">
+      <Filter>Pliki nagłówkowe\SFML\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SFML\Audio\SoundBuffer.hpp">
+      <Filter>Pliki nagłówkowe\SFML\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SFML\Audio\SoundBufferRecorder.hpp">
+      <Filter>Pliki nagłówkowe\SFML\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SFML\Audio\SoundFileFactory.hpp">
+      <Filter>Pliki nagłówkowe\SFML\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SFML\Audio\SoundFileReader.hpp">
+      <Filter>Pliki nagłówkowe\SFML\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SFML\Audio\SoundFileWriter.hpp">
+      <Filter>Pliki nagłówkowe\SFML\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SFML\Audio\SoundRecorder.hpp">
+      <Filter>Pliki nagłówkowe\SFML\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SFML\Audio\SoundSource.hpp">
+      <Filter>Pliki nagłówkowe\SFML\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SFML\Audio\SoundStream.hpp">
+      <Filter>Pliki nagłówkowe\SFML\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SFML\Audio\AlResource.hpp">
+      <Filter>Pliki nagłówkowe\SFML\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SFML\Audio\Export.hpp">
+      <Filter>Pliki nagłówkowe\SFML\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SFML\System\Lock.hpp">
+      <Filter>Pliki nagłówkowe\SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SFML\System\MemoryInputStream.hpp">
+      <Filter>Pliki nagłówkowe\SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SFML\System\Mutex.hpp">
+      <Filter>Pliki nagłówkowe\SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SFML\System\NativeActivity.hpp">
+      <Filter>Pliki nagłówkowe\SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SFML\System\NonCopyable.hpp">
+      <Filter>Pliki nagłówkowe\SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SFML\System\Sleep.hpp">
+      <Filter>Pliki nagłówkowe\SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SFML\System\String.hpp">
+      <Filter>Pliki nagłówkowe\SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SFML\System\Thread.hpp">
+      <Filter>Pliki nagłówkowe\SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SFML\System\ThreadLocal.hpp">
+      <Filter>Pliki nagłówkowe\SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SFML\System\ThreadLocalPtr.hpp">
+      <Filter>Pliki nagłówkowe\SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SFML\System\Time.hpp">
+      <Filter>Pliki nagłówkowe\SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SFML\System\Utf.hpp">
+      <Filter>Pliki nagłówkowe\SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SFML\System\Vector2.hpp">
+      <Filter>Pliki nagłówkowe\SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SFML\System\Vector3.hpp">
+      <Filter>Pliki nagłówkowe\SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SFML\System\Clock.hpp">
+      <Filter>Pliki nagłówkowe\SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SFML\System\Err.hpp">
+      <Filter>Pliki nagłówkowe\SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SFML\System\Export.hpp">
+      <Filter>Pliki nagłówkowe\SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SFML\System\FileInputStream.hpp">
+      <Filter>Pliki nagłówkowe\SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SFML\System\InputStream.hpp">
+      <Filter>Pliki nagłówkowe\SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Skybox.h">
+      <Filter>Pliki nagłówkowe\MyHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Pliki nagłówkowe\MyHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Pliki nagłówkowe\MyHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Pliki nagłówkowe\MyHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI.h">
+      <Filter>Pliki nagłówkowe\MyHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderData.h">
+      <Filter>Pliki nagłówkowe\MyHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio.h">
+      <Filter>Pliki nagłówkowe\MyHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Ground.h">
+      <Filter>Pliki nagłówkowe\MyHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>Pliki nagłówkowe\MyHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Pliki nagłówkowe\MyHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\lib\glew32.lib">
+      <Filter>Pliki zasobów</Filter>
+    </Library>
+    <Library Include="..\lib\glew32s.lib">
+      <Filter>Pliki zasobów</Filter>
+    </Library>
+    <Library Include="..\lib\freeglut.lib">
+      <Filter>Pliki zasobów</Filter>
+    </Library>
+    <Library Include="..\lib\sfml-audio-d.lib">
+      <Filter>Pliki zasobów</Filter>
+    </Library>
+    <Library Include="..\lib\sfml-system.lib">
+      <Filter>Pliki zasobów</Filter>
+    </Library>
+    <Library Include="..\lib\sfml-system-d.lib">
+      <Filter>Pliki zasobów</Filter>
+    </Library>
+    <Library Include="..\lib\openal32.lib">
+      <Filter>Pliki zasobów</Filter>
+    </Library>
+    <Library Include="..\lib\sfml-audio.lib">
+      <Filter>Pliki zasobów</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\freeglut.dll">
+      <Filter>Pliki zasobów</Filter>
+    </None>
+    <None Include="..\glew32.dll">
+      <Filter>Pliki zasobów</Filter>
+    </None>
+    <None Include="..\include\SFML\Audio\SoundFileFactory.inl">
+      <Filter>Pliki nagłówkowe\SFML\Audio</Filter>
+    </None>
+    <None Include="..\include\SFML\System\String.inl">
+      <Filter>Pliki nagłówkowe\SFML\System</Filter>
+    </None>
+    <None Include="..\include\SFML\System\Thread.inl">
+      <Filter>Pliki nagłówkowe\SFML\System</Filter>
+    </None>
+    <None Include="..\include\SFML\System\ThreadLocalPtr.inl">
+      <Filter>Pliki nagłówkowe\SFML\System</Filter>
+    </None>
+    <None Include="..\include\SFML\System\Utf.inl">
+      <Filter>Pliki nagłówkowe\SFML\System</Filter>
+    </None>
+    <None Include="..\include\SFML\System\Vector2.inl">
+      <Filter>Pliki nagłówkowe\SFML\System</Filter>
+    </None>
+    <None Include="..\include\SFML\System\Vector3.inl">
+      <Filter>Pliki nagłówkowe\SFML\System</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\ImGui\imgui.cpp">
+      <Filter>Pliki nagłówkowe\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\ImGui\imgui_demo.cpp">
+      <Filter>Pliki nagłówkowe\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\ImGui\imgui_draw.cpp">
+      <Filter>Pliki nagłówkowe\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\ImGui\imgui_impl_glut.cpp">
+      <Filter>Pliki nagłówkowe\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\ImGui\imgui_impl_opengl3.cpp">
+      <Filter>Pliki nagłówkowe\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\ImGui\imgui_stdlib.cpp">
+      <Filter>Pliki nagłówkowe\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\ImGui\imgui_tables.cpp">
+      <Filter>Pliki nagłówkowe\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\ImGui\imgui_widgets.cpp">
+      <Filter>Pliki nagłówkowe\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\ImGui\imgui_impl_opengl2.cpp">
+      <Filter>Pliki nagłówkowe\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="AdditionalWindows.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Skybox.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderData.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Ground.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Project.rc">
+      <Filter>Pliki zasobów</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="src\textures\icon.ico">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

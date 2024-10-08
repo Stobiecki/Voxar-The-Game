@@ -1,0 +1,6 @@
+v;shaders/vertex.glsl;prog1;
+f;shaders/fragment.glsl;prog1;
+v;shaders/vertexLightTransparent.glsl;prog1;
+f;shaders/fragmentLightTransparent.glsl;prog1;
+v;shaders/2Dvertex.glsl;prog1;
+f;shaders/2Dfragment.glsl;prog1;

@@ -1,0 +1,67 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.38.33134.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///f:/foldery/studia ug - magisterskie/semestr iii/programowanie grafiki 3d w opengl (c++, glsl)/laboratoria/lab10/szablon/include/imgui/imgui_tables.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "e05204b10e3417c8df34603e1f9bbdabae3d25bf9aae1d246006c18a4fae2b82"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/foldery/studia ug - magisterskie/semestr iii/programowanie grafiki 3d w opengl (c++, glsl)/laboratoria/lab10/szablon/include/imgui/imgui.h"
+          },
+          "hashes": {
+            "sha-256": "27a87e15fc931c5d6d66fd43bfa673aeace1f572f2bd994d454da00508e81c04"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/foldery/studia ug - magisterskie/semestr iii/programowanie grafiki 3d w opengl (c++, glsl)/laboratoria/lab10/szablon/include/imgui/imconfig.h"
+          },
+          "hashes": {
+            "sha-256": "f4353b5003def5cb675d9a6f4bb4dc65260456d7b0811beedfa1e7e4b23d84ec"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/foldery/studia ug - magisterskie/semestr iii/programowanie grafiki 3d w opengl (c++, glsl)/laboratoria/lab10/szablon/include/imgui/imgui_internal.h"
+          },
+          "hashes": {
+            "sha-256": "23176d4c506078f8cef395351e7a6dc225408bb97701e30f6ba8f0c244242792"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/foldery/studia ug - magisterskie/semestr iii/programowanie grafiki 3d w opengl (c++, glsl)/laboratoria/lab10/szablon/include/imgui/imstb_textedit.h"
+          },
+          "hashes": {
+            "sha-256": "952dafd13b3bdfceb7179da7f7d11db14419e7ae3613982741428b7a036b5d27"
+          }
+        }
+      ]
+    }
+  ]
+}

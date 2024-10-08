@@ -1,0 +1,12 @@
+﻿  main.cpp
+F:\Foldery\Studia UG - Magisterskie\Semestr III\Programowanie grafiki 3D w OpenGL (C++, GLSL)\laboratoria\projekt\szablon\Project\shader_stuff.h(16,19): warning C4244: "inicjowanie": konwersja z "std::streamoff" do "unsigned long", możliwa utrata danych
+  (kompilowanie pliku źródłowego „main.cpp”)
+  
+F:\Foldery\Studia UG - Magisterskie\Semestr III\Programowanie grafiki 3D w OpenGL (C++, GLSL)\laboratoria\projekt\szablon\Project\shader_stuff.h(18,20): warning C4244: "inicjowanie": konwersja z "std::streamoff" do "unsigned long", możliwa utrata danych
+  (kompilowanie pliku źródłowego „main.cpp”)
+  
+F:\Foldery\Studia UG - Magisterskie\Semestr III\Programowanie grafiki 3D w OpenGL (C++, GLSL)\laboratoria\projekt\szablon\Project\main.cpp(117,2): warning C4129: "%": nierozpoznany znak sekwencji ucieczki
+F:\Foldery\Studia UG - Magisterskie\Semestr III\Programowanie grafiki 3D w OpenGL (C++, GLSL)\laboratoria\projekt\szablon\Project\main.cpp(180,23): warning C4244: "argument": konwersja z "float" do "unsigned int", możliwa utrata danych
+F:\Foldery\Studia UG - Magisterskie\Semestr III\Programowanie grafiki 3D w OpenGL (C++, GLSL)\laboratoria\projekt\szablon\Project\main.cpp(188,12): warning C4244: "argument": konwersja z "time_t" do "unsigned int", możliwa utrata danych
+F:\Foldery\Studia UG - Magisterskie\Semestr III\Programowanie grafiki 3D w OpenGL (C++, GLSL)\laboratoria\projekt\szablon\Project\main.cpp(232,23): warning C4244: "argument": konwersja z "float" do "unsigned int", możliwa utrata danych
+  Project.vcxproj -> F:\Foldery\Studia UG - Magisterskie\Semestr III\Programowanie grafiki 3D w OpenGL (C++, GLSL)\laboratoria\projekt\szablon\x64\Debug\Project.exe

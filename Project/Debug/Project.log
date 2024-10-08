@@ -1,0 +1,77 @@
+﻿  imgui.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_impl_glut.cpp
+  imgui_impl_opengl2.cpp
+  imgui_impl_opengl3.cpp
+  imgui_stdlib.cpp
+  imgui_tables.cpp
+  imgui_widgets.cpp
+  AdditionalWindows.cpp
+F:\Foldery\Studia UG - Magisterskie\Semestr III\Programowanie grafiki 3D w OpenGL (C++, GLSL)\laboratoria\lab10\szablon\Project\AdditionalWindows.cpp(414,2): warning C4129: "%": nierozpoznany znak sekwencji ucieczki
+  Audio.cpp
+  Camera.cpp
+  GUI.cpp
+  Light.cpp
+F:\Foldery\Studia UG - Magisterskie\Semestr III\Programowanie grafiki 3D w OpenGL (C++, GLSL)\laboratoria\lab10\szablon\Project\Light.cpp(273,2): warning C4129: "%": nierozpoznany znak sekwencji ucieczki
+F:\Foldery\Studia UG - Magisterskie\Semestr III\Programowanie grafiki 3D w OpenGL (C++, GLSL)\laboratoria\lab10\szablon\Project\Light.cpp(290,2): warning C4129: "%": nierozpoznany znak sekwencji ucieczki
+F:\Foldery\Studia UG - Magisterskie\Semestr III\Programowanie grafiki 3D w OpenGL (C++, GLSL)\laboratoria\lab10\szablon\Project\Light.cpp(361,2): warning C4129: "%": nierozpoznany znak sekwencji ucieczki
+F:\Foldery\Studia UG - Magisterskie\Semestr III\Programowanie grafiki 3D w OpenGL (C++, GLSL)\laboratoria\lab10\szablon\Project\Light.cpp(393,2): warning C4129: "%": nierozpoznany znak sekwencji ucieczki
+F:\Foldery\Studia UG - Magisterskie\Semestr III\Programowanie grafiki 3D w OpenGL (C++, GLSL)\laboratoria\lab10\szablon\Project\Light.cpp(466,2): warning C4129: "%": nierozpoznany znak sekwencji ucieczki
+F:\Foldery\Studia UG - Magisterskie\Semestr III\Programowanie grafiki 3D w OpenGL (C++, GLSL)\laboratoria\lab10\szablon\Project\Light.cpp(561,2): warning C4129: "%": nierozpoznany znak sekwencji ucieczki
+  main.cpp
+F:\Foldery\Studia UG - Magisterskie\Semestr III\Programowanie grafiki 3D w OpenGL (C++, GLSL)\laboratoria\lab10\szablon\Project\shader_stuff.h(16,19): warning C4244: "inicjowanie": konwersja z "std::streamoff" do "unsigned long", możliwa utrata danych
+F:\Foldery\Studia UG - Magisterskie\Semestr III\Programowanie grafiki 3D w OpenGL (C++, GLSL)\laboratoria\lab10\szablon\Project\shader_stuff.h(18,20): warning C4244: "inicjowanie": konwersja z "std::streamoff" do "unsigned long", możliwa utrata danych
+F:\Foldery\Studia UG - Magisterskie\Semestr III\Programowanie grafiki 3D w OpenGL (C++, GLSL)\laboratoria\lab10\szablon\Project\main.cpp(60,2): warning C4129: "%": nierozpoznany znak sekwencji ucieczki
+F:\Foldery\Studia UG - Magisterskie\Semestr III\Programowanie grafiki 3D w OpenGL (C++, GLSL)\laboratoria\lab10\szablon\Project\main.cpp(72,2): warning C4129: "%": nierozpoznany znak sekwencji ucieczki
+F:\Foldery\Studia UG - Magisterskie\Semestr III\Programowanie grafiki 3D w OpenGL (C++, GLSL)\laboratoria\lab10\szablon\Project\main.cpp(75,2): warning C4129: "%": nierozpoznany znak sekwencji ucieczki
+F:\Foldery\Studia UG - Magisterskie\Semestr III\Programowanie grafiki 3D w OpenGL (C++, GLSL)\laboratoria\lab10\szablon\Project\main.cpp(80,2): warning C4129: "%": nierozpoznany znak sekwencji ucieczki
+F:\Foldery\Studia UG - Magisterskie\Semestr III\Programowanie grafiki 3D w OpenGL (C++, GLSL)\laboratoria\lab10\szablon\Project\main.cpp(84,2): warning C4129: "%": nierozpoznany znak sekwencji ucieczki
+F:\Foldery\Studia UG - Magisterskie\Semestr III\Programowanie grafiki 3D w OpenGL (C++, GLSL)\laboratoria\lab10\szablon\Project\main.cpp(97,2): warning C4129: "%": nierozpoznany znak sekwencji ucieczki
+F:\Foldery\Studia UG - Magisterskie\Semestr III\Programowanie grafiki 3D w OpenGL (C++, GLSL)\laboratoria\lab10\szablon\Project\main.cpp(108,2): warning C4129: "%": nierozpoznany znak sekwencji ucieczki
+F:\Foldery\Studia UG - Magisterskie\Semestr III\Programowanie grafiki 3D w OpenGL (C++, GLSL)\laboratoria\lab10\szablon\Project\main.cpp(110,2): warning C4129: "%": nierozpoznany znak sekwencji ucieczki
+F:\Foldery\Studia UG - Magisterskie\Semestr III\Programowanie grafiki 3D w OpenGL (C++, GLSL)\laboratoria\lab10\szablon\Project\main.cpp(114,2): warning C4129: "%": nierozpoznany znak sekwencji ucieczki
+F:\Foldery\Studia UG - Magisterskie\Semestr III\Programowanie grafiki 3D w OpenGL (C++, GLSL)\laboratoria\lab10\szablon\Project\main.cpp(162,23): warning C4244: "argument": konwersja z "float" do "unsigned int", możliwa utrata danych
+F:\Foldery\Studia UG - Magisterskie\Semestr III\Programowanie grafiki 3D w OpenGL (C++, GLSL)\laboratoria\lab10\szablon\Project\main.cpp(169,12): warning C4244: "argument": konwersja z "time_t" do "unsigned int", możliwa utrata danych
+F:\Foldery\Studia UG - Magisterskie\Semestr III\Programowanie grafiki 3D w OpenGL (C++, GLSL)\laboratoria\lab10\szablon\Project\main.cpp(170,2): warning C4129: "%": nierozpoznany znak sekwencji ucieczki
+F:\Foldery\Studia UG - Magisterskie\Semestr III\Programowanie grafiki 3D w OpenGL (C++, GLSL)\laboratoria\lab10\szablon\Project\main.cpp(178,2): warning C4129: "%": nierozpoznany znak sekwencji ucieczki
+F:\Foldery\Studia UG - Magisterskie\Semestr III\Programowanie grafiki 3D w OpenGL (C++, GLSL)\laboratoria\lab10\szablon\Project\main.cpp(186,2): warning C4129: "%": nierozpoznany znak sekwencji ucieczki
+F:\Foldery\Studia UG - Magisterskie\Semestr III\Programowanie grafiki 3D w OpenGL (C++, GLSL)\laboratoria\lab10\szablon\Project\main.cpp(190,2): warning C4129: "%": nierozpoznany znak sekwencji ucieczki
+F:\Foldery\Studia UG - Magisterskie\Semestr III\Programowanie grafiki 3D w OpenGL (C++, GLSL)\laboratoria\lab10\szablon\Project\main.cpp(199,2): warning C4129: "%": nierozpoznany znak sekwencji ucieczki
+F:\Foldery\Studia UG - Magisterskie\Semestr III\Programowanie grafiki 3D w OpenGL (C++, GLSL)\laboratoria\lab10\szablon\Project\main.cpp(209,23): warning C4244: "argument": konwersja z "float" do "unsigned int", możliwa utrata danych
+  Model.cpp
+F:\Foldery\Studia UG - Magisterskie\Semestr III\Programowanie grafiki 3D w OpenGL (C++, GLSL)\laboratoria\lab10\szablon\Project\Model.cpp(206,2): warning C4129: "%": nierozpoznany znak sekwencji ucieczki
+F:\Foldery\Studia UG - Magisterskie\Semestr III\Programowanie grafiki 3D w OpenGL (C++, GLSL)\laboratoria\lab10\szablon\Project\Model.cpp(219,4): warning C4129: "%": nierozpoznany znak sekwencji ucieczki
+F:\Foldery\Studia UG - Magisterskie\Semestr III\Programowanie grafiki 3D w OpenGL (C++, GLSL)\laboratoria\lab10\szablon\Project\Model.cpp(225,4): warning C4129: "%": nierozpoznany znak sekwencji ucieczki
+F:\Foldery\Studia UG - Magisterskie\Semestr III\Programowanie grafiki 3D w OpenGL (C++, GLSL)\laboratoria\lab10\szablon\Project\Model.cpp(231,4): warning C4129: "%": nierozpoznany znak sekwencji ucieczki
+F:\Foldery\Studia UG - Magisterskie\Semestr III\Programowanie grafiki 3D w OpenGL (C++, GLSL)\laboratoria\lab10\szablon\Project\Model.cpp(243,4): warning C4129: "%": nierozpoznany znak sekwencji ucieczki
+F:\Foldery\Studia UG - Magisterskie\Semestr III\Programowanie grafiki 3D w OpenGL (C++, GLSL)\laboratoria\lab10\szablon\Project\Model.cpp(246,4): warning C4129: "%": nierozpoznany znak sekwencji ucieczki
+F:\Foldery\Studia UG - Magisterskie\Semestr III\Programowanie grafiki 3D w OpenGL (C++, GLSL)\laboratoria\lab10\szablon\Project\Model.cpp(287,40): warning C4305: "+=": obcięcie z "double" do "T"
+          with
+          [
+              T=float
+          ]
+F:\Foldery\Studia UG - Magisterskie\Semestr III\Programowanie grafiki 3D w OpenGL (C++, GLSL)\laboratoria\lab10\szablon\Project\Model.cpp(288,40): warning C4305: "+=": obcięcie z "double" do "T"
+          with
+          [
+              T=float
+          ]
+F:\Foldery\Studia UG - Magisterskie\Semestr III\Programowanie grafiki 3D w OpenGL (C++, GLSL)\laboratoria\lab10\szablon\Project\Model.cpp(306,4): warning C4129: "%": nierozpoznany znak sekwencji ucieczki
+F:\Foldery\Studia UG - Magisterskie\Semestr III\Programowanie grafiki 3D w OpenGL (C++, GLSL)\laboratoria\lab10\szablon\Project\Model.cpp(312,4): warning C4129: "%": nierozpoznany znak sekwencji ucieczki
+F:\Foldery\Studia UG - Magisterskie\Semestr III\Programowanie grafiki 3D w OpenGL (C++, GLSL)\laboratoria\lab10\szablon\Project\Model.cpp(314,4): warning C4129: "%": nierozpoznany znak sekwencji ucieczki
+F:\Foldery\Studia UG - Magisterskie\Semestr III\Programowanie grafiki 3D w OpenGL (C++, GLSL)\laboratoria\lab10\szablon\Project\Model.cpp(316,4): warning C4129: "%": nierozpoznany znak sekwencji ucieczki
+F:\Foldery\Studia UG - Magisterskie\Semestr III\Programowanie grafiki 3D w OpenGL (C++, GLSL)\laboratoria\lab10\szablon\Project\Model.cpp(318,4): warning C4129: "%": nierozpoznany znak sekwencji ucieczki
+F:\Foldery\Studia UG - Magisterskie\Semestr III\Programowanie grafiki 3D w OpenGL (C++, GLSL)\laboratoria\lab10\szablon\Project\Model.cpp(320,4): warning C4129: "%": nierozpoznany znak sekwencji ucieczki
+F:\Foldery\Studia UG - Magisterskie\Semestr III\Programowanie grafiki 3D w OpenGL (C++, GLSL)\laboratoria\lab10\szablon\Project\Model.cpp(322,4): warning C4129: "%": nierozpoznany znak sekwencji ucieczki
+F:\Foldery\Studia UG - Magisterskie\Semestr III\Programowanie grafiki 3D w OpenGL (C++, GLSL)\laboratoria\lab10\szablon\Project\Model.cpp(324,4): warning C4129: "%": nierozpoznany znak sekwencji ucieczki
+  RenderData.cpp
+  Skybox.cpp
+F:\Foldery\Studia UG - Magisterskie\Semestr III\Programowanie grafiki 3D w OpenGL (C++, GLSL)\laboratoria\lab10\szablon\Project\Skybox.cpp(169,150): warning C4244: "=": konwersja z "double" do "float", możliwa utrata danych
+F:\Foldery\Studia UG - Magisterskie\Semestr III\Programowanie grafiki 3D w OpenGL (C++, GLSL)\laboratoria\lab10\szablon\Project\Skybox.cpp(171,33): warning C4244: "=": konwersja z "double" do "float", możliwa utrata danych
+  Utilities.cpp
+F:\Foldery\Studia UG - Magisterskie\Semestr III\Programowanie grafiki 3D w OpenGL (C++, GLSL)\laboratoria\lab10\szablon\Project\Utilities.cpp(2,1): warning C4005: "NDEBUG": ponowna definicja makra
+F:\Foldery\Studia UG - Magisterskie\Semestr III\Programowanie grafiki 3D w OpenGL (C++, GLSL)\laboratoria\lab10\szablon\Project\Utilities.cpp(2,1): message : Element „NDEBUG“ został wcześniej zadeklarowany w wierszu polecenia
+F:\Foldery\Studia UG - Magisterskie\Semestr III\Programowanie grafiki 3D w OpenGL (C++, GLSL)\laboratoria\lab10\szablon\Project\Utilities.cpp(220,20): warning C4244: "inicjowanie": konwersja z "std::streamoff" do "unsigned long", możliwa utrata danych
+F:\Foldery\Studia UG - Magisterskie\Semestr III\Programowanie grafiki 3D w OpenGL (C++, GLSL)\laboratoria\lab10\szablon\Project\Utilities.cpp(222,20): warning C4244: "inicjowanie": konwersja z "std::streamoff" do "unsigned long", możliwa utrata danych
+  Generowanie kodu...
+LINK : fatal error LNK1104: nie można otworzyć pliku „freeglut.lib”

@@ -1,0 +1,59 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.38.33134.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///f:/foldery/studia ug - magisterskie/semestr iii/programowanie grafiki 3d w opengl (c++, glsl)/laboratoria/lab10/szablon/include/imgui/imgui_stdlib.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "84e705e85761e690a028e57844addc0bbd8091561c53dd245df2e3df9a32dbef"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/foldery/studia ug - magisterskie/semestr iii/programowanie grafiki 3d w opengl (c++, glsl)/laboratoria/lab10/szablon/include/imgui/imgui.h"
+          },
+          "hashes": {
+            "sha-256": "27a87e15fc931c5d6d66fd43bfa673aeace1f572f2bd994d454da00508e81c04"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/foldery/studia ug - magisterskie/semestr iii/programowanie grafiki 3d w opengl (c++, glsl)/laboratoria/lab10/szablon/include/imgui/imconfig.h"
+          },
+          "hashes": {
+            "sha-256": "f4353b5003def5cb675d9a6f4bb4dc65260456d7b0811beedfa1e7e4b23d84ec"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/foldery/studia ug - magisterskie/semestr iii/programowanie grafiki 3d w opengl (c++, glsl)/laboratoria/lab10/szablon/include/imgui/imgui_stdlib.h"
+          },
+          "hashes": {
+            "sha-256": "025f9726ba6a28c99bb4e442c04c8c476b2971b5bd9e8b64124f9751aba21e97"
+          }
+        }
+      ]
+    }
+  ]
+}
