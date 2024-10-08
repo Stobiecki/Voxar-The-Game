@@ -1,7 +1,7 @@
 # Voxar - When The Sky Goes Dark
 
 # Shortly about the game
-First-person, 3D game focused on exploration. Initially made for one of my *3D programming* classes, but vastly expanded on the basic premis of the game. This game was my first *real* try of game-dev experience. 
+Short, First-person, 3D game focused on exploration (walking simulator). Initially made for one of my *3D programming* classes, but vastly expanded on the basic premis of the game. This game was my first *real* try of game-dev experience. 
 
 I put a lot of thought into this project, so I hope the person playing this game will enjoy it. :relaxed:
 
